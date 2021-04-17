@@ -5,7 +5,7 @@ RUN gunzip elm.gz
 RUN chmod +x elm
 RUN mv elm /usr/local/bin/
 
-RUN npm install -g create-elm-app@4.0.1 elm-format@0.8.2 --unsafe-perm=true
+RUN npm install -g create-elm-app@5.22.0 elm-format@0.8.5 --unsafe-perm=true
 WORKDIR /source
 
 EXPOSE 3000

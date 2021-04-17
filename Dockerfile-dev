@@ -1,6 +1,6 @@
 FROM node:8
 
-RUN npm install -g elm-format@0.8.2 --unsafe-perm=true
+RUN npm install -g elm-format@0.8.5 --unsafe-perm=true
 ADD create-elm-app /usr/lib/node_modules/create-elm-app
 RUN cd /usr/lib/node_modules/create-elm-app/ && npm link
 
